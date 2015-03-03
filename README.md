@@ -6,4 +6,4 @@ The most easiest [Anime i.ntere.st](http://i.ntere.st) bot ever made. It is a Mo
 Soon.
 
 ## Contact
-I can be contacted via [root@kazeflame.ml](mailto:root@kazeflame.ml) or in twitter [@KazeFlame30](twitter.com/KazeFlame30).
+I can be contacted via [root@kazeflame.ml](mailto:root@kazeflame.ml) or in twitter [@KazeFlame30](http://twitter.com/KazeFlame30).
