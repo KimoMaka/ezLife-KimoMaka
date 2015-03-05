@@ -1,16 +1,16 @@
 {
     "content_scripts": [], 
-    "description": "Extension description", 
-    "creator": "Kango", 
+    "description": "The most easiest Anime i.ntere.st bot ever made", 
+    "creator": "KazeFlame", 
     "background_scripts": [
         "main.js"
     ], 
-    "homepage_url": "http://kangoextensions.com/", 
-    "version": "0.9.0", 
+    "homepage_url": "https://github.com/KazeFlame/ezLife-AutoIn/", 
+    "version": "1.0 Beta", 
     "browser_button": {
-        "caption": "Kango", 
-        "icon": "icons/button.png", 
-        "tooltipText": "Kango"
+        "caption": "ezLife AutoIn", 
+        "icon": "data/icons/button.png", 
+        "tooltipText": "ezLife AutoIn"
     }, 
     "name": "ezLife AutoIn"
 }
