@@ -5,13 +5,39 @@ body {
 }
 .container {
     width: 250px;
-    height: 300px;
+    height: auto;
     margin: 0;
     padding: 0;
 }
 .header {
     width: 250px;
     height: 60px;
+    display: block;
     background-color: #1f8dd6;
     background-image: url(../images/logo.png);
+    background-size: 100%;
+    background-position: center;
+}
+.content-pane {
+    padding: 0 5px;
+}
+.content-pane .content-subhead {
+    padding: 0.4em 0;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 300;
+    color: #aaa;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eee;
+    letter-spacing: 0.1em;
+}
+.content-pane .action-button {
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+}
+.content-pane .link-button {
+    width: 88.2%;
+    display: block;
+    margin-bottom: 8px;
 }

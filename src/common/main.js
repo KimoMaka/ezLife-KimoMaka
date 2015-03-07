@@ -14,7 +14,7 @@ function ezLifeAutoIn() {
     kango.ui.browserButton.setPopup({
         url: 'ui/home.html',
         width: 262,
-        height: 300
+        height: 370
     });
     
     kango.ui.browserButton.addEventListener(kango.ui.browserButton.event.COMMAND, function(){
