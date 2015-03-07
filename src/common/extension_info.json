@@ -1,16 +1,17 @@
 {
-    "content_scripts": [], 
+    "name": "ezLife AutoIn",
+    "version": "1.0",
     "description": "The most easiest Anime i.ntere.st bot ever made", 
-    "creator": "KazeFlame", 
+    "creator": "KazeFlame and contributors",
+    "homepage_url": "https://github.com/KazeFlame/ezLife-AutoIn/",
     "background_scripts": [
         "main.js"
-    ], 
-    "homepage_url": "https://github.com/KazeFlame/ezLife-AutoIn/", 
-    "version": "1.0 Beta", 
+    ],
+    "content_scripts": [],
     "browser_button": {
-        "caption": "ezLife AutoIn", 
-        "icon": "data/icons/button.png", 
-        "tooltipText": "ezLife AutoIn"
-    }, 
-    "name": "ezLife AutoIn"
+        "icon": "icons/button.png",
+        "tooltipText": "ezLife AutoIn",
+        "caption": "ezLife AutoIn"
+    },
+    "default_locale": "en"
 }

@@ -13,13 +13,13 @@ function ezLifeAutoIn() {
     
     kango.ui.browserButton.setPopup({
         url: 'ui/home.html',
-        width: 200,
+        width: 262,
         height: 300
     });
     
     kango.ui.browserButton.addEventListener(kango.ui.browserButton.event.COMMAND, function(){
         self._onCommand();
-    })
+    });
 }
 
 ezLifeAutoIn.prototype = {
