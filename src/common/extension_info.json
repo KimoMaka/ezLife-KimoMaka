@@ -3,7 +3,7 @@
     "version": "1.0",
     "description": "The most easiest Anime i.ntere.st bot ever made", 
     "creator": "KazeFlame and contributors",
-    "homepage_url": "https://github.com/KazeFlame/ezLife-AutoIn/",
+    "homepage_url": "http://kazeflame.github.io/ezLife-AutoIn/",
     "background_scripts": [
         "main.js"
     ],
