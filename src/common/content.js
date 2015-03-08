@@ -11,6 +11,7 @@
 // ==UserScript==
 // @include http://i.ntere.st/
 // @require core/jquery.js
+// @require core/modal.js
 // ==/UserScript==
 
 // Check if the user is logged in
@@ -24,7 +25,7 @@ if($('body').hasClass('guest')) {
     kango.invokeAsync('kango.storage.setItem', 'username', $('#navbar > div > div > ul.nav.pull-right > li.dropdown.dropdown-user > a > span.text').text());
 }
 
-// Get the action passed by the foreground scripts
+// Get the actions passed by the foreground scripts
 kango.invokeAsync('kango.storage.getItem', 'action', function(d_action){
     kango.invokeAsync('kango.storage.getItem', 'urlForAction', function(d_urlForAction){
         kango.invokeAsync('kango.storage.getItem', 'username', function(d_username){
@@ -36,12 +37,12 @@ kango.invokeAsync('kango.storage.getItem', 'action', function(d_action){
                         if(document.URL.match(/(http|https):\/\/i.ntere.st\/c\/.*/gi) != null && $('#errordoc404').length == 0) {
                             // Don't allow user to autoin its own album
                             if($('#book-header > h1 > small > a').attr('href') == '/u/' + d_username) {
-                                alert('You cannot autoin your own album!');
+                                Modal.error('You cannot autoin your own album. Please try again.').show();
                             } else {
-                                // TODO: Display AutoIn Album modal
+                                
                             }
                         } else {
-                            alert('Not an album!');
+                            Modal.error('This is not an album. Please try again.').show();
                         }
                 }
             }

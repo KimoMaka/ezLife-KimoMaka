@@ -8,7 +8,9 @@
  *
  */
 
-function ezLifeAutoIn() {
+// @class ezLifeAutoIn
+// @uses Kango
+function ezLifeAutoIn(){
     var self = this;
     
     // Setup the popup button
@@ -24,7 +26,6 @@ function ezLifeAutoIn() {
     });
 }
 
-// @class ezLifeAutoIn
 ezLifeAutoIn.prototype = {
     _onCommand: function(){}
 };
