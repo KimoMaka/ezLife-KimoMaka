@@ -7,7 +7,9 @@
     "background_scripts": [
         "main.js"
     ],
-    "content_scripts": [],
+    "content_scripts": [
+        "content.js"
+    ],
     "browser_button": {
         "icon": "icons/button.png",
         "tooltipText": "ezLife AutoIn",
