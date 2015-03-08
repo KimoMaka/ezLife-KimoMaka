@@ -1,10 +1,8 @@
 ﻿/*!
  * ezLife AutoIn - The most easiest Anime i.ntere.st bot ever made
- * https://github.com/KazeFlame/ezLife-AutoIn/
+ * https://github.com/KimoMaka/ezLife-KimoMaka/
  *
- * Copyright 2015 by KazeFlame and contributors
- * Released under the MIT license
- * https://github.com/KazeFlame/ezLife-AutoIn/blob/master/LICENSE
+ * Copyright 2015 by KimoMaka
  *
  */
 
