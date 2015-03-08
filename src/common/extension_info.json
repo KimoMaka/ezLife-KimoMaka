@@ -1,9 +1,9 @@
 {
-    "name": "ezLife AutoIn",
+    "name": "KimoMaka AutoIn",
     "version": "1.0",
     "description": "The most easiest Anime i.ntere.st bot ever made", 
-    "creator": "KazeFlame and contributors",
-    "homepage_url": "http://kazeflame.github.io/ezLife-AutoIn/",
+    "creator": "KimoMaka",
+    "homepage_url": "https://github.com/KimoMaka/ezLife-KimoMaka/",
     "background_scripts": [
         "main.js"
     ],
@@ -12,8 +12,8 @@
     ],
     "browser_button": {
         "icon": "icons/button.png",
-        "tooltipText": "ezLife AutoIn",
-        "caption": "ezLife AutoIn"
+        "tooltipText": "KimoMaka AutoIn",
+        "caption": "KimoMaka AutoIn"
     },
     "default_locale": "en"
 }
