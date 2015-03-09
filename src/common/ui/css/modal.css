@@ -4,11 +4,14 @@
     position: fixed;
     top: 0;
     background-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
     z-index: 9999;
 }
 .ezLifeAutoIn-modal-error {
     width: 400px;
-    height: 200px;
+    height: 150px;
     margin: auto;
     padding: 10px;
     position: fixed;
@@ -20,4 +23,23 @@
     box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.4);
+}
+.ezLifeAutoIn-modal-error h1 {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 300;
+    color: red;
+    line-height: 32px;
+}
+.ezLifeAutoIn-modal-error p {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+.ezLifeAutoIn-modal-error button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }

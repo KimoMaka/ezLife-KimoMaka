@@ -22,23 +22,17 @@ body {
     padding: 0 5px;
 }
 .content-pane .content-subhead {
-    padding: 0.4em 0;
+    border-bottom: 1px solid #eee;
     font-family: inherit;
     font-size: 18px;
     font-weight: 300;
     color: #aaa;
     text-align: center;
     text-transform: uppercase;
-    border-bottom: 1px solid #eee;
     letter-spacing: 0.1em;
 }
 .content-pane .action-button {
     width: 100%;
-    display: block;
-    margin-bottom: 8px;
-}
-.content-pane .link-button {
-    width: 88.2%;
     display: block;
     margin-bottom: 8px;
 }
