@@ -10,12 +10,9 @@
 
 KangoAPI.onReady(function(){
     kango.browser.tabs.getCurrent(function(tab){
-        // Get the url in the tab
         var currentUrl = tab.getUrl();
-        // Tells if the user is logged in to Anime i.ntere.st
         var isLoggedIn = kango.storage.getItem('isLoggedIn');
         
-        // Check if the current url is in Anime i.ntere.st or is the user logged in
         if(currentUrl.match(/(http|https):\/\/i.ntere.st/gi) == null || isLoggedIn == false) {
             $('#autoInAlbum').prop('disabled', true);
             $('#autoInNewArrivals').prop('disabled', true);
@@ -23,13 +20,9 @@ KangoAPI.onReady(function(){
             $('#dumpImages').prop('disabled', true);
         }
         
-        // Add functionality to AutoIn Album button
         $('#autoInAlbum').click(function(event){
-            // Set the action to be AutoIn Album
             kango.storage.setItem('action', 'AutoIn Album');
-            // Set the url for the action
             kango.storage.setItem('urlForAction', currentUrl);
-            // Reload the current page to activate the action
             tab.navigate(currentUrl);
         });
     });
